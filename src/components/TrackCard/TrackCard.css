@@ -1,0 +1,9 @@
+.card {
+  margin: 10px;
+  background-color: var(--bg-dark-surface);
+  color: var(--txt-primary);
+}
+
+.card-body {
+  text-align: center;
+}

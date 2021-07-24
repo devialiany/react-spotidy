@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: var(--txt-primary);
+}
+
+span {
+  color: yellow;
+}
+
+.album-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--bg-dark-primary);
+  padding: 8px;
+}

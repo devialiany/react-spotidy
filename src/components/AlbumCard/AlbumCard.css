@@ -1,0 +1,34 @@
+.album-card {
+  width: 8rem;
+  height: 15rem;
+  margin: 5px;
+  background-color: var(--bg-dark-surface);
+  color: var(--txt-primary);
+}
+.card-subtitle {
+  font-size: 8pt;
+}
+.card-title {
+  font-size: 12pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 480px) {
+  .album-card {
+    width: 15rem;
+    height: 23rem;
+    margin: 8px;
+    background-color: var(--bg-dark-surface);
+    color: var(--txt-primary);
+  }
+
+  .card-subtitle {
+    font-size: 12pt;
+  }
+  .card-title {
+    font-size: 16pt;
+  }
+}

@@ -1,0 +1,35 @@
+.search-container {
+  /* display: flex; */
+  padding: 2%;
+  width: 100%;
+  height: 10%;
+}
+
+.search-content {
+  display: flex;
+  align-items: center;
+  min-height: 86vh;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.search-container a {
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .search-container {
+    display: flex;
+    padding: 2%;
+    width: 100%;
+    height: 10%;
+  }
+
+  .search-container a {
+    margin-top: 0;
+    width: 10%;
+  }
+}
